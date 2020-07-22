@@ -1,4 +1,11 @@
+1-
 x=y=z=200
 print(x)
 print(y)
 print(z)
+
+2-
+a,b,c=10,20,30
+print(a)
+print(b)
+print(c)
