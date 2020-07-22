@@ -3,3 +3,7 @@ age=21
 marks=85.45
 print(name)
 print(age)
+print(marks)
+print(type(name))
+print(type(age))
+print(type(marks))
