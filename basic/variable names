@@ -1,0 +1,5 @@
+name="ishita"
+age=21
+marks=85.45
+print(name)
+print(age)
