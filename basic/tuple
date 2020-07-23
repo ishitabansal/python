@@ -2,3 +2,7 @@ tup=("hi","python",5)
 print(type(tup))
 print(tup)
 print(tup[1:])
+print(typ[0:1])
+print(tup+tup)
+print(tup*3)
+t[2]="hi"
