@@ -1,0 +1,4 @@
+tup=("hi","python",5)
+print(type(tup))
+print(tup)
+print(tup[1:])
