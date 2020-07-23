@@ -1,0 +1,4 @@
+list=[1,"hi","python",2]
+print(type(list))
+print(list)
+print(list[3:])
