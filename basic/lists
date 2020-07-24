@@ -1,7 +1,7 @@
 list=[1,"hi","python",2]
-print(type(list))
+print(type(list))                  //this will print the datatype of the variable
 print(list)
-print(list[3:])
+print(list[3:])                    //this will print letters after 3rd position
 print(list[0:2])
 print(list+list)
 print(list*3)
