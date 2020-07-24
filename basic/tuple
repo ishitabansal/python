@@ -1,8 +1,8 @@
 tup=("hi","python",5)
-print(type(tup))
+print(type(tup))                        //this will print the type of the tuple
 print(tup)
 print(tup[1:])
-print(typ[0:1])
+print(typ[0:1])                        //this will print the element at 0 and 1
 print(tup+tup)
 print(tup*3)
 t[2]="hi"
