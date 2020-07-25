@@ -2,7 +2,10 @@ data[1]
 data[2]
 data[3]
 data[4] 
+data.get(1)                                                      //here an error will be printed
 data.get(1)
 data.get(2)
 data.get(3)
-data.get(4) 
+data.get(4)                                             //nothing will print
+print(data.get(4))                                      //it will print none
+data.get(4:'not found')                                 //it will print not found
