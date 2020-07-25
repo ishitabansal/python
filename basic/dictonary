@@ -18,3 +18,9 @@ data.get(4:'not found')                                 //it will print not foun
 //to print a dictornary from a dictonary
 
 prog={{'js':'atom', 'cs':'vs', 'python':['pycharm','sublime'], 'java':{'jse':'netbeans', 'jee':'eclipse'}
+prog['js']
+prog['cs']
+prog['python']
+prog[java]
+prog['java']['jse']
+prog['java']['jee']
