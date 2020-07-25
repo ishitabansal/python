@@ -9,3 +9,12 @@ data.get(3)
 data.get(4)                                             //nothing will print
 print(data.get(4))                                      //it will print none
 data.get(4:'not found')                                 //it will print not found
+
+
+
+
+
+
+//to print a dictornary from a dictonary
+
+prog={{'js':'atom', 'cs':'vs', 'python':['pycharm','sublime'], 'java':{'jse':'netbeans', 'jee':'eclipse'}
