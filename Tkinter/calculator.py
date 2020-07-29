@@ -24,3 +24,14 @@ labelresult = tk.Label(top)
 
 labelresult.grid(row=7,column=2)
 
+entrynum1 = tk.Entry(top,textvariable=number1).grid(row=1,column=2)
+entrynum2 = tk.Entry(top,textvariable=number2).grid(row=2,column=2)
+
+
+call_result = partial(call_result,labelresult,number1,number2)
+
+calbutton = tk.Button(top,text="Calculator",command=call_result).grid(row=3,column=0)
+
+top.mainloop()
+
+
