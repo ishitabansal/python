@@ -52,3 +52,13 @@ def sub():
       
 btnSub = tk.Button(text='-', command=sub, bg='violet', fg='black', font=('helvetica', 11, 'bold'), width = 5)
 canvas1.create_window(150, 190, window=btnSub)
+
+def mul():  
+    v1 = entry1.get()
+    v2 = entry2.get()
+  
+    label6= tk.Label(top, text= float(v1)*float(v2),font=('helvetica', 10, 'bold'),bg='white')
+    canvas1.create_window(210, 240, window=label6)
+      
+btnMul = tk.Button(text='*', command=mul, bg='red', fg='black', font=('helvetica', 11, 'bold'), width = 5)
+canvas1.create_window(210, 190, window=btnMul)
