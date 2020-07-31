@@ -62,3 +62,18 @@ def mul():
       
 btnMul = tk.Button(text='*', command=mul, bg='red', fg='black', font=('helvetica', 11, 'bold'), width = 5)
 canvas1.create_window(210, 190, window=btnMul)
+
+def div():  
+    v1 = entry1.get()
+    v2 = entry2.get()
+  
+    label7= tk.Label(top, text= float(v1)/float(v2),font=('helvetica', 10, 'bold'),bg='white')
+    canvas1.create_window(210, 240, window=label7)
+      
+btndiv = tk.Button(text='/', command=div, bg='light blue', fg='black', font=('helvetica',11, 'bold'), width = 5)
+canvas1.create_window(270, 190, window=btndiv)
+
+
+
+
+top.mainloop()
