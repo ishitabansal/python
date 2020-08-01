@@ -18,4 +18,22 @@ def press1():     #function name equalpress
         expr = " "                          #show expression and initialize the expression by empty string
     except:
         eq.set("ERROR")           #show the error msg
-        expr = " "      
+        expr = " "   
+        
+ 
+def clear():                          #clear the expression. clear is function name
+    global expr
+    expr = " "
+    eq.set(" ")
+
+
+if __name__ == "__main__":     #main program
+    top = tk.Tk()              #define top
+    top.title("Calculator")     #Title name name
+    top.iconbitmap("Images.jpg")        #set Icon
+    top.geometry("260x172")
+    top.maxsize(width=260,height=170)           #max size
+    top.configure(bg="green")
+
+        
+        
