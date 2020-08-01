@@ -33,7 +33,7 @@ if __name__ == "__main__":     #main program
     top.iconbitmap("Images.jpg")        #set Icon
     top.geometry("260x172")
     top.maxsize(width=260,height=170)           #max size
-    top.configure(bg="green")
+    top.configure(bg="red")
     
   #create the entry box to display number and arithmatic operator
 
