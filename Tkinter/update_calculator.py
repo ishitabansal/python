@@ -55,6 +55,20 @@ btn9.grid(row = 1 , column = 2,ipady = 4, ipadx = 2)
 btnmines = ttk.Button(top, text = '-' , width = 8 ,  command = lambda : press('-') )
 btnmines.grid(row = 1 , column = 3 , ipady = 3, ipadx = 2)
 
+btnmul = ttk.Button(top, text = '*' , width = 8 ,  command = lambda : press("*") )
+btnmul.grid(row = 1 , column = 4 , ipady = 3, ipadx = 2)
+
+btn4 = ttk.Button(top, text = '4' , width = 5 ,  command = lambda : press(4) )
+btn4.grid(row = 2 , column = 0 ,ipady = 4 , ipadx = 2)
+
+btn5 = ttk.Button(top, text = '5' , width = 5 ,  command = lambda : press(5) )
+btn5.grid(row = 2 , column = 1 ,ipady = 4, ipadx = 2)
+
+btn6 = ttk.Button(top, text = '6' , width = 5 ,  command = lambda : press(6) )
+btn6.grid(row = 2 , column = 2,ipady = 4, ipadx = 3)
+
+
+
 
     
 
