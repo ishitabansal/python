@@ -41,6 +41,19 @@ if __name__ == "__main__":     #main program
     entry = ttk.Entry(top,width = 40, state = "readonly",background = "red", textvariable = eq)
     entry.grid(row=0, column=10, ipadx = 6, ipady = 8)
     entry.focus()
+    
+btn7 = ttk.Button(top, text = '7' , width = 5 ,  command = lambda : press(7) )
+
+btn7.grid(row = 1 , column = 0 ,ipady = 4 , ipadx = 2)    
+    
+btn8 = ttk.Button(top, text = '8' , width = 5 ,  command = lambda : press(8))
+btn8.grid(row = 1 , column = 1 ,ipady = 4, ipadx = 2)
+
+btn9 = ttk.Button(top, text = '9' , width = 5 ,  command = lambda : press(9) )
+btn9.grid(row = 1 , column = 2,ipady = 4, ipadx = 2)
+
+btnmines = ttk.Button(top, text = '-' , width = 8 ,  command = lambda : press('-') )
+btnmines.grid(row = 1 , column = 3 , ipady = 3, ipadx = 2)
 
 
     
