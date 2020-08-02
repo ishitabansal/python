@@ -72,6 +72,15 @@ btn6.grid(row = 2 , column = 2,ipady = 4, ipadx = 3)
 btnplus = ttk.Button(top, text = '+' , width = 8 ,  command = lambda : press("+") )
 btnplus.grid(row = 2 , column = 3,ipady = 3, ipadx = 2)
 
+btndiv = ttk.Button(top, text= '/' , width = 8 , command = lambda : press("/") )
+btndiv.grid(row = 2 , column = 4, ipady = 3, ipadx = 2)
+
+btn3 = ttk.Button(top, text="3" , width = 5 , command = lambda : press(3) )
+btn3.grid(row =3 , column = 0, ipady = 4, ipadx = 2)
+
+btn2 = ttk.Button(top, text="2" , width = 5 , command = lambda : press(2) )
+btn2.grid(row =3 , column = 1, ipady = 4, ipadx = 2)
+
 
 
 
