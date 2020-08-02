@@ -90,7 +90,14 @@ btn0.grid(row =3 , column = 3, ipady = 3, ipadx = 2)
 btnequ = ttk.Button(top, text="=" , width = 8 , command = press1 )
 btnequ.grid(row =3, column = 4, ipady=3 , ipadx = 2)
 
+btnclr = ttk.Button(top, text="Clear",width = 41, command = clear)
+btnclr.grid(row=4, columnspan = 6, ipady=4, ipadx=2)
 
+
+
+
+top.mainloop()
+ 
 
     
 
