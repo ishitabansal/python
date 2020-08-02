@@ -81,7 +81,14 @@ btn3.grid(row =3 , column = 0, ipady = 4, ipadx = 2)
 btn2 = ttk.Button(top, text="2" , width = 5 , command = lambda : press(2) )
 btn2.grid(row =3 , column = 1, ipady = 4, ipadx = 2)
 
+btn1 = ttk.Button(top, text="1" , width = 5 , command = lambda : press(1) )
+btn1.grid(row =3 , column = 2, ipady = 4, ipadx = 2)
 
+btn0 = ttk.Button(top, text="0" , width = 8 , command = lambda : press(0) )
+btn0.grid(row =3 , column = 3, ipady = 3, ipadx = 2)
+
+btnequ = ttk.Button(top, text="=" , width = 8 , command = press1 )
+btnequ.grid(row =3, column = 4, ipady=3 , ipadx = 2)
 
 
 
