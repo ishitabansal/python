@@ -24,3 +24,5 @@ def register():
     password_lable.pack()
     password_entry = Entry(reg_screen, textvariable=password, show="*")
     password_entry.pack()
+    Button(reg_screen, text="Register",width=10,height=1,bg="blue",command=reg_usr).pack()
+
