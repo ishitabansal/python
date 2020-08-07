@@ -52,5 +52,17 @@ def login():
     password_login_entry.pack()
     Label(login_screen,text="").pack()
     Button(login_screen,text="Login",width=11,height=1,command=login_verify).pack()
+    
+     #work on register button
+
+def reg_user():
+    username_info=username.get()
+    password_info=password.get()
+
+
+    file=open(username_info, "w")             #file open in wrie mode
+    file.write(username_info + "\n")
+    file.write(password_info)
+    file.close()                  #close the file
 
 
