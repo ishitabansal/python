@@ -64,5 +64,10 @@ def reg_user():
     file.write(username_info + "\n")
     file.write(password_info)
     file.close()                  #close the file
+    usrename.entry.delete(0,END)
+    password_entry.delete(0,END)
+
+    Label(register_screen,text="Registration Success",fg="green",font=("calibri",11)).pack()
+
 
 
