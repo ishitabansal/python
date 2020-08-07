@@ -32,3 +32,14 @@ def login():
     login_screen = Toplevel(screen)
     login_screen.title("Login")
     login_screen.geometry("300x250")
+    
+   Label(login_screen,text="enter detail for login the user").pack()
+    
+    global username_verify
+    global password_verify
+    global username_login_entry
+    global password_login_entry
+
+    username_verify=StringVar()
+    password_verify=StringVar()
+
