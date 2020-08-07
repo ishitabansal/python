@@ -68,6 +68,14 @@ def reg_user():
     password_entry.delete(0,END)
 
     Label(register_screen,text="Registration Success",fg="green",font=("calibri",11)).pack()
+        
+        #work on login button
+def login_verify():
+    username1=username_verify.get()     #get username and password
+    password1=password_verify.get()
+
+    username_login_entry.delete(0,END)
+    password_login_entry.delete(0,END)       #this ll delete the entry after press the login button
 
 
 
