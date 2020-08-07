@@ -42,4 +42,15 @@ def login():
 
     username_verify=StringVar()
     password_verify=StringVar()
+    
+    
+    Label(login_screen,text="uername").pack()
+    usrename_login_entry=Entry(login_screen,textvariable=username_verify)
+    username_login_entry.pack()
+    Label(login_screen,text="password").pack()
+    password_login_entry=Entry(login_screen, textvariable=password_verify,show="*")
+    password_login_entry.pack()
+    Label(login_screen,text="").pack()
+    Button(login_screen,text="Login",width=11,height=1,command=login_verify).pack()
+
 
