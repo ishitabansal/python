@@ -98,6 +98,15 @@ def login_sucess():
     login_success_screen.geometry("150x100")
     Label(login_success_screen,text="Login success").pack()
     Button(login_success_screen,text="Ok", command=delete_login_success).pack()
+    
+    #FOR INVALID PSSWORD
+def password_not_recognised():
+    global password_not_rec_screen
+    password_not_rec_screen = Toplevel(screen)
+    password_not_rec_screen.title("Success")
+    password_not_rec_screen.geometry("150x100")
+    Label(password_not_rec_screen,text="Invalid Password").pack()
+    Button(password_not_rec_screen,text="Ok",command=delete_password_not_recognised).pack()
             
 
 
