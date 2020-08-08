@@ -127,6 +127,24 @@ def delete_password_not_recognised():
     
 def delete_user_not_found_screen():      # now define a function for deleting this popup. and here is  the code.    
     user_not_found_screen.destroy
+    
+    #design for main window
+
+def main_screen():            
+    global screen
+    screen = Tk()            #create GUI window
+    screen.geometry("300x250")
+    screen.title("Login Account")     #set the title of GUI 
+
+#create a label
+    Label(text="choose Login or register", background="light blue",width="300",height="2",font=("Calibri",13)).pack()
+    Label(text="").pack()
+    Button(text="Login",height="2",width="30",command=login).pack()
+    Label(text="").pack()
+    Button(text="Register",height="2",width="30", command=register).pack()
+
+    screen.mainloop()
+main_screen()                        #calll the function
 
             
 
