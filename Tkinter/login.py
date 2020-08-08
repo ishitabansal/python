@@ -88,6 +88,17 @@ def login_verify():
              password_not_recognised()
     else:
           user_not_found()
+            
+            #FOR LOGIN_SUCESS FUNCTION
+
+def login_sucess():
+    global login_success_screen
+    login_success_screen = Toplevel(screen)
+    login_success_screen.title("Success")
+    login_success_screen.geometry("150x100")
+    Label(login_success_screen,text="Login success").pack()
+    Button(login_success_screen,text="Ok", command=delete_login_success).pack()
+            
 
 
 
