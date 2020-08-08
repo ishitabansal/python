@@ -76,6 +76,18 @@ def login_verify():
 
     username_login_entry.delete(0,END)
     password_login_entry.delete(0,END)       #this ll delete the entry after press the login button
+    list_of_files = os.listdir()            #The method listdir() returns a list containing the names of the entries in the directory given by path.
+    
+    if username1 in list_of_files:
+        file1 = open(username1, "r")       #open the file in read mode
+        verify=file1.read().splitlines()   # It breaks the string at line boundaries and returns a list of splitted strings
+        if password1 in verify:  
+              login_sucess()
+
+        else:
+             password_not_recognised()
+    else:
+          user_not_found()
 
 
 
