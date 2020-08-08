@@ -124,6 +124,9 @@ def delete_login_success():
 
 def delete_password_not_recognised():
     password_not_rec_screen.destroy()
+    
+def delete_user_not_found_screen():      # now define a function for deleting this popup. and here is  the code.    
+    user_not_found_screen.destroy
 
             
 
