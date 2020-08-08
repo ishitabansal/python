@@ -116,6 +116,15 @@ def user_not_found():
     user_not_found_screen.geometry("150x100")
     Label(user_not_found_screen,text="user Not Found").pack()
     Button(user_not_found_screen,text="Ok",command=delete_user_not_found_screen).pack()
+    
+     #DELETING POUPS
+
+def delete_login_success():                        
+    login_success_screen.destroy()
+
+def delete_password_not_recognised():
+    password_not_rec_screen.destroy()
+
             
 
 
