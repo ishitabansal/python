@@ -14,3 +14,5 @@ c.pack()
 top.mainloop()  
 
 
+
+# The canvas widget is used to add the structured graphics to the python application. It is used to draw the graph and plots to the python application.
