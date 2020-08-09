@@ -13,3 +13,8 @@ btn = Button(root, text = "open", command = open)
 btn.place(x=75,y=50)  
   
 root.mainloop()  
+
+
+
+#The toplevel widget is used when a python application needs to represent some extra information, pop-up, or the group of widgets on the new window.
+# managed by the window manager
