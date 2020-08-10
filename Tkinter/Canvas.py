@@ -1,8 +1,8 @@
-from tkinter import *   
+from tkinter import *         #import tkinter module
   
 top = Tk()  
   
-top.geometry("200x200")  
+top.geometry("200x200")           #set the frame size
   
 #creating a simple canvas  
 c = Canvas(top,bg = "pink",height = "200",width = 200)  
